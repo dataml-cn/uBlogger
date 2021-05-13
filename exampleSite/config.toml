@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 theme = "uBlogger"
 # themes directory
 # 主题目录
-themesDir = "../.."
+# themesDir = "../.."
 
 # website title
 # 网站标题
@@ -18,7 +18,7 @@ title = "uBlogger"
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+# enableGitInfo = true
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
