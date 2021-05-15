@@ -1,33 +1,22 @@
 # uBlogger Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/00c527bb-f8bc-4094-8da3-b37f28e4d81a/deploy-status)](https://app.netlify.com/sites/ublogger/deploys)
-> **uBlogger** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+[![License](https://img.shields.io/github/license/dataml-cn/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/blob/master/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/ce24a086-d0a9-4570-8fe9-4f725ced5784/deploy-status)](https://app.netlify.com/sites/youblogger/deploys)
 
-
-It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt).
-
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose uBlogger](#why-choose-ublogger) so that you can choose the one that works best for you.
+**uBlogger** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/). It is based on the original [uBlogger Theme](https://github.com/upagge/uBlogger). 
 
 ![Hugo Theme uBlogger](https://github.com/upagge/uBlogger/raw/master/images/Apple-Devices-Preview.jpg)
 
-## :warning: Information for those who move with LoveIt theme :warning:
+## [Demo Site and Documentation](https://youblogger.netlify.app/)
 
-> Skip to the next section if you do not know about LoveIt
-
-**If you have used the LoveIt theme, I have a [message for you, make sure to read it.](CHANGE.md)**
-
-## [Demo Site and Documentation](https://ublogger.netlify.app/)
-
-To see this theme in action, here is a live [demo site](https://ublogger.netlify.app/) which is rendered with **uBlogger** theme.
+To see this theme in action, here is a live [demo site](https://youblogger.netlify.app/) which is rendered with **uBlogger** theme.
 
 ## Why choose uBlogger
 
-Compared to the original LeaveIt theme and the KeepIt theme, the uBlogger theme has the following modifications.
+Compared to the original LeaveIt theme, the KeepIt theme and the origin uBlogger theme, the uBlogger theme has the following modifications.
 
+* Custom **tweet** shortcodes, build without network
 * Custom **Header**
 * Custom **CSS Style**
 * A new **home page**, compatible with the latest version of Hugo
@@ -122,11 +111,26 @@ I hope you will uBlogger ❤️!
 
 ## Documentation
 
-Build Documentation Locally:
+Build example site with Docker
+
+### 1. pull image
+
+`docker pull klakegg/hugo`
+
+> We currently do not offer official Hugo images for Docker, but we do recommend these up to date distributions: https://hub.docker.com/r/klakegg/hugo/
+
+
+### 2. build example site
 
 ```bash
-hugo server --source=exampleSite
+docker run --name hugo-env --rm -it -p 1313:1313 -v uBlogger:/src --entrypoint /bin/sh  klakegg/hugo:latest -c "cd exampleSite; ./build.sh"
 ```
+
+### 3. open the example site
+http://localhost:1313/
+
+
+
 
 ## Multilingual and i18n
 
@@ -144,15 +148,15 @@ uBlogger supports the following languages:
 * Russian
 * Romanian
 * Vietnamese
-* [Contribute with a new language](https://github.com/upagge/uBlogger/pulls)
+* [Contribute with a new language](https://github.com/dataml-cn/uBlogger/pulls)
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/upagge/uBlogger/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/dataml-cn/uBlogger/issues).
 
 ## License
 
-uBlogger is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/upagge/uBlogger/blob/master/LICENSE) for details.
+uBlogger is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/dataml-cn/uBlogger/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 
@@ -182,12 +186,10 @@ Thanks to the authors of following resources included in the theme:
 
 ## Author
 
-[uPagge](https://uPagge.ru)
+[wang zhuang](http://www.dataml.cn)
 
 ## Sponsor
 
-If you enjoy the theme, please set the star for the project or/and consider buying me a coffee ☕️.
-
-* [PaiPal](https://paypal.me/upagge)
+If you enjoy the theme, please set the star for the project.
 
 Thanks! ❤️❤️❤️
