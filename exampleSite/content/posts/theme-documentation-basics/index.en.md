@@ -7,7 +7,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
   
-upd: "Since the template began to support uPagge, you can not do without names. You can find the changes by tag 1.x.x."
+upd: "you can not do without names. You can find the changes by tag 1.x.x."
   
 page:
     theme: "wide"
@@ -55,21 +55,21 @@ cd my_website
 
 ### 2.2 Install the Theme
 
-The **uBlogger** theme’s repository is: [https://github.com/upagge/uBlogger](https://github.com/upagge/uBlogger).
+The **uBlogger** theme’s repository is: [https://github.com/dataml-cn/uBlogger](https://github.com/dataml-cn/uBlogger).
 
-You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/upagge/uBlogger/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/dataml-cn/uBlogger/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
 ```shell
-git clone https://github.com/upagge/uBlogger.git themes/uBlogger
+git clone https://github.com/dataml-cn/uBlogger.git themes/uBlogger
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```shell
 git init
-git submodule add https://github.com/upagge/uBlogger.git themes/uBlogger
+git submodule add https://github.com/dataml-cn/uBlogger.git themes/uBlogger
 ```
 
 ### 2.3 Basic Configuration {#basic-configuration}
@@ -1006,7 +1006,7 @@ Translations strings are used for common default values used in the theme. Trans
 
 To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/uBlogger/i18n/en.toml`.
 
-By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/upagge/uBlogger/pulls) to the theme!
+By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dataml-cn/uBlogger/pulls) to the theme!
 
 ## 5 Search
 

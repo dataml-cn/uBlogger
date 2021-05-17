@@ -10,14 +10,14 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dataml-cn/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger)
-[![GitHub forks](https://img.shields.io/github/forks/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger/fork)
+[![License](https://img.shields.io/github/license/dataml-cn/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dataml-cn/uBlogger?style=social)](https://github.com/dataml-cn/uBlogger)
+[![GitHub forks](https://img.shields.io/github/forks/dataml-cn/uBlogger?style=social)](https://github.com/dataml-cn/uBlogger/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): uBlogger](https://github.com/upagge/uBlogger) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [uPagge](https://upagge.ru).
+> [:(far fa-kiss-wink-heart fa-fw): uBlogger](https://github.com/dataml-cn/uBlogger) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [uPagge](https://upagge.ru).
 >
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
@@ -84,7 +84,7 @@ math:
 
 uBlogger is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/upagge/uBlogger/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/dataml-cn/uBlogger/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 

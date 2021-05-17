@@ -12,7 +12,7 @@ The main emphasis is on the convenience of reading content, because we have a bl
 
 ## What have I managed to change
 
-> While there is no demo site, you can see how the template looks on [my blog](https://blog.upagge.ru).
+> While there is no demo site, you can see how the template looks on [my blog](https://blog.dataml.cn).
 
 * I rethought the design of the articles and the display of the articles on the main page. 
     * Now the article page can have three views, and in combination with the positioning of content you have the flexibility to change the format of displaying the article.
@@ -47,13 +47,11 @@ The main emphasis is on the convenience of reading content, because we have a bl
         * New way to display article tags
 * I took the changes in their PRs that fixed the bugs: [#558](https://github.com/dillonzq/LoveIt/pull/558/files), [#544](https://github.com/dillonzq/LoveIt/pull/544/files), [#522](https://github.com/dillonzq/LoveIt/pull/522), [#521](https://github.com/dillonzq/LoveIt/pull/521), [#519](https://github.com/dillonzq/LoveIt/pull/519), [#461](https://github.com/dillonzq/LoveIt/pull/461/files), [#433](https://github.com/dillonzq/LoveIt/pull/433/files), [#425](https://github.com/dillonzq/LoveIt/pull/425)
 * Added breadcrumbs support for OpenGraph
-* Support for [Remark 42](https://github.com/umputun/remark42/) comments. Ooo is a great project and I strongly recommend using this commenting system for your site. Soon I will write an article why it is the best commenting system and how to set it up. Personally, I use it in [my blog](https://blog.upagge.ru).
+* Support for [Remark 42](https://github.com/umputun/remark42/) comments. Ooo is a great project and I strongly recommend using this commenting system for your site. Soon I will write an article why it is the best commenting system and how to set it up. Personally, I use it in [my blog](https://blog.dataml.cn).
 * Added support for [yandex metrics](http://metrika.yandex.com/)
 * I also made a lot of small improvements, and this is just the beginning :smile:
 
-If you have ideas or suggestions, or if you find bugs, please report them to the [issue](https://github.com/uPagge/uBlogger/issues).
-
-**If you liked the topic, I would be glad if you gave a :star2: star to this project. Well, either throw me a coffee via [PayPal](https://paypal.me/upagge)**
+If you have ideas or suggestions, or if you find bugs, please report them to the [issue](https://github.com/dataml-cn/uBlogger/issues).
 
 ### Change the markdown design
 

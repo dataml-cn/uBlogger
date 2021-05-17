@@ -6,7 +6,7 @@
     {{- if not .Site.Params.version -}}
         {{- errorf "Configuration Error 配置文件错误\n\nYou haven't configured the uBlogger version param correctly yet. See #basic-configuration\n你还没有正确配置 uBlogger 的版本参数. 参考 #basic-configuration\n" -}}
     {{- else if ne .Site.Params.version $VERSION -}}
-        {{- errorf (printf "Compatibility Error 兼容性错误\n\n%v -> %v:\nYou have an incompatible update. See https://github.com/upagge/uBlogger/releases\n你进行了一次不兼容的更新. 参考 https://github.com/upagge/uBlogger/releases\n" .Site.Params.version $VERSION) -}}
+        {{- errorf (printf "Compatibility Error 兼容性错误\n\n%v -> %v:\nYou have an incompatible update. See https://github.com/dataml-cn/uBlogger/releases\n你进行了一次不兼容的更新. 参考 https://github.com/dataml-cn/uBlogger/releases\n" .Site.Params.version $VERSION) -}}
     {{- end -}}
 {{- end -}}
 

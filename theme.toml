@@ -3,9 +3,9 @@
 
 name = "uBlogger"
 license = "MIT"
-licenselink = "https://github.com/upagge/uBlogger/blob/master/LICENSE"
+licenselink = "https://github.com/dataml-cn/uBlogger/blob/master/LICENSE"
 description = "The whole focus of the topic is on ease of reading for visitors and SEO optimization."
-homepage = "https://ublogger.netlify.app"
+homepage = "https://youblogger.netlify.app"
 tags = [
   "blog",
   "clean",
@@ -25,8 +25,8 @@ features = [
 min_version = "0.62.0"
 
 [author]
-  name = "uPagge"
-  homepage = "https://uPagge.ru/"
+  name = "Wang Zhuang"
+  homepage = "https://blog.dataml.cn/"
 
 [original]
   name = "LoveIt"

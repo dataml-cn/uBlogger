@@ -1,12 +1,12 @@
 # uBlogger Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dataml-cn/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/dataml-cn/uBlogger?style=flat-square)](https://github.com/dataml-cn/uBlogger/blob/master/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/ce24a086-d0a9-4570-8fe9-4f725ced5784/deploy-status)](https://app.netlify.com/sites/youblogger/deploys)
 
-**uBlogger** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/). It is based on the original [uBlogger Theme](https://github.com/upagge/uBlogger). 
+**uBlogger** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/). It is based on the original [uBlogger Theme](https://github.com/dataml-cn/uBlogger). 
 
-![Hugo Theme uBlogger](https://github.com/upagge/uBlogger/raw/master/images/Apple-Devices-Preview.jpg)
+![Hugo Theme uBlogger](https://github.com/dataml-cn/uBlogger/raw/master/images/Apple-Devices-Preview.jpg)
 
 ## [Demo Site and Documentation](https://youblogger.netlify.app/)
 

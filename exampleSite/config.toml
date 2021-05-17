@@ -86,7 +86,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/upagge/ublogger"
+        url = "https://github.com/dataml-cn/ublogger"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -233,7 +233,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/upagge/dolboblog-theme"
+  gitRepo = "https://github.com/dataml-cn/uBlogger"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -327,7 +327,7 @@ enableEmoji = true
     enable = true
     [params.comment.remark42]
       enable = true
-      host = "https://comments.upagge.ru"
+      host = "https://comments.dataml.cn"
       site = "documentation"
       locale = "en"
     # Disqus comment config (https://disqus.com/)
@@ -666,7 +666,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "upagge.en"
+  name = "Wang Zhuang"
 
 # Sitemap config
 # 网站地图配置

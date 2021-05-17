@@ -251,12 +251,12 @@ Format JSON:
 
 ```json
 {
-  "name": "Struchkov Mark",
-  "nickname": "uPagge",
+  "name": "Wang Zhuang",
+  "nickname": "Wang Zhuang",
   "about": "Trusted user pc",
-  "avatar": "https://upagge.ru/img/ava.jpg",
-  "link": "https://uPagge.ru",
-  "email": "me@upagge.ru",
+  "avatar": "https://dataml.cn/img/ava.jpg",
+  "link": "https://blog.dataml.cn",
+  "email": "xinshu@live.com",
   "ps": "If you like this topic, put an asterisk in GitHub, it will be a pleasure for me"
 }
 ```
