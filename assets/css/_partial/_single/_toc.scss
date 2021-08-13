@@ -29,7 +29,6 @@
       }
 
       a:first-child::before {
-        content: "|";
         font-weight: bolder;
         margin-right: .5rem;
         color: $single-link-color;
@@ -68,7 +67,6 @@
   width: $MAX_LENGTH;
   max-width: 0;
   padding: 0 .8rem;
-  border-left: 4px solid $global-border-color;
   @include overflow-wrap(break-word);
   box-sizing: border-box;
   top: 10rem;
