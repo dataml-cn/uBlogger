@@ -231,6 +231,10 @@
         border-bottom-left-radius: 6px;
       }
 
+      tr:last-child td.lntd:first-child {
+        width: 16px;
+      }
+
       tr:last-child td:last-child {
         border-bottom-right-radius: 6px;
       }
